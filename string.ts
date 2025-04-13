@@ -1,4 +1,4 @@
-import RedisClient from "./client.ts"
+import RedisClient from "./client/client.ts"
 
 async function init() {
     // await client.set("msg:5", "Hello from Node JS")

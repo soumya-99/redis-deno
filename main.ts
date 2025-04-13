@@ -1,4 +1,4 @@
-import RedisClient from "./client.ts";
+import RedisClient from "./client/client.ts";
 
 Deno.serve({
   port: 8000,
